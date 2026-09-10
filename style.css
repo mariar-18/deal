@@ -1,0 +1,20 @@
+.active-tab {
+    color: #4f46e5;
+    border-bottom: 3px solid #4f46e5;
+}
+.inactive-tab {
+    color: #9ca3af;
+}
+#toast {
+    transform: translateX(150%);
+    transition: transform 0.3s ease-in-out;
+}
+#toast.show {
+    transform: translateX(0);
+}
+.view-section {
+    display: none;
+}
+.view-section.active {
+    display: block;
+}
