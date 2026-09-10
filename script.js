@@ -1,5 +1,5 @@
 let user = JSON.parse(localStorage.getItem('user'));
-const API = "http://localhost:5000";
+const API = "";
 let isSignup = false, intendedRole = 'buyer', selectedRating = 0, ratingData = null;
 let activeBuyData = null;
 
